@@ -37,7 +37,7 @@ data1 %>%
 
 ######ggplotly#######
 
-data1 %>% 
+heatmap<- data1 %>% 
   mutate(Mes= month, Delegación= reorder(delegacion_inicio,value), Incidentes= value) %>% 
 ggplot(aes(x =Mes, y = Delegación, fill= Incidentes)) + geom_tile()+
   labs(title="Incidentes viales reportados por el C5 de la Ciudad de México",
@@ -52,18 +52,12 @@ ggplot(aes(x =Mes, y = Delegación, fill= Incidentes)) + geom_tile()+
         axis.ticks.x = element_blank(),
         plot.title = element_text(face = "bold", size=20, family="Times New Roman", hjust = 0.5),
         plot.subtitle = element_text(size=15, family="Times New Roman", hjust = 0.5), 
-        plot.caption = element_text(face= "italic", size=12, family="Times New Roman"))->a
+        plot.caption = element_text(face= "italic", size=12, family="Times New Roman"))
 
-ggplotly(a) %>% 
-  layout(title = list(font = list(size=23),
-                      text = paste0('Incidentes viales reportados por el C5 de la Ciudad de México',
+
+ggplotly(heatmap) %>% 
+  layout(title = list(text = paste0('Incidentes viales reportados por el C5 de la Ciudad de México',
                                     '<br>',
                                     '<sup>',
-                                    'Número de incidentes acumulados por mes',
-                                    '<sup>',
-                                    '<br>','<br>','<br>','<br>','<br>','<br>','<br>','<br>',
-                                    '<br>','<br>','<br>','<br>','<br>','<br>','<br>','<br>',
-                                    '<br>','<br>',
-                                    '</sup>',
                                     'Elaborada por: Donovan Torres (@torres_dn1). Datos: C5-Gob-CDMX')))     
 rm(a)
