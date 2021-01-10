@@ -1,6 +1,7 @@
 # Visualizaciones
- Este repositorio contiene algunas visualizaciones que he realizado utilizando las funciones de `ggplot`, `networkD3`, `leaflet`, `gganimate`, `gifski`, `plotly`, `highcharter` entre otras paqueterías. Se divide en diversos proyectos correspondiente a cada una de las carpetas. 
+ Este repositorio contiene algunas visualizaciones que he realizado utilizando las funciones de `ggplot`, `networkD3`, `leaflet`, `gganimate`, `gifski`, `plotly`, `highcharter`, `sf`, entre otras paqueterías. Se divide en diversos proyectos correspondiente a cada una de las carpetas. 
  
  - Moto GP es el primer de ellos. Allí propongo una visualización para las posiciones de cada uno de los campeonatos mundiales de las últimas dos décadas. 
- - Autocracies of the world (GIF) contiene un gif de la variación del número y del tipo de regímenes en el mundo.
+ - Autocracies of the world (GIF) contiene un gif de la variación del número y del tipo de regímenes políticos en el mundo.
  - Incidentes C5 muestra un heatmap del número de incidentes viales por mes en las demarcaciones territoriales de la Ciudad de México
+ - Robo de autos es un mapa de la Ciudad de México con el número de robos en 2019, según los datos del SESNSP
