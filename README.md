@@ -10,4 +10,7 @@
  ![autocracies](https://user-images.githubusercontent.com/47362216/104989348-e0db9c80-59df-11eb-9a62-86873e241b3a.gif)
  
  - Incidentes C5 muestra un heatmap del número de incidentes viales por mes en las demarcaciones territoriales de la Ciudad de México
+ 
+ ![heatmap](https://user-images.githubusercontent.com/47362216/104989469-2304de00-59e0-11eb-954f-cdb0da538bec.png)
+ 
  - Robo de autos es un mapa de la Ciudad de México con el número de robos en 2019, según los datos del SESNSP
