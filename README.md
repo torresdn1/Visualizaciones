@@ -18,5 +18,4 @@
 
 Visualizaciones por venir: 
 
-![Uploading consejerasos.gif…]()
 
