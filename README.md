@@ -14,9 +14,3 @@
  ![heatmap](https://user-images.githubusercontent.com/47362216/104989469-2304de00-59e0-11eb-954f-cdb0da538bec.png)
  
  - Robo de autos es un mapa de la Ciudad de México con el número de robos en 2019, según los datos del SESNSP
-
-
-Visualizaciones por venir: 
-
-![consejerasos](https://user-images.githubusercontent.com/47362216/106646274-2ad19000-6553-11eb-9ca4-a06db2de76a7.gif)
-
