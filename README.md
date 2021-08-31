@@ -15,5 +15,6 @@
  
  - Tasas de Crecimiento mensuales por del delito por alcaldía (2018-2020). Esta visualización muestra la evolución en el tiempo de la incidencia delictiva en la CDMX.
 
+![TelosChart1](https://user-images.githubusercontent.com/47362216/131549634-95241d59-b954-489c-bd6d-a4fe4a8741a7.jpeg)
 
  - Robo de autos es un mapa de la Ciudad de México con el número de robos en 2019, según los datos del SESNSP
